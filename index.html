@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soben Media | Lorn Mony</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'soben-teal': 'rgb(51, 124, 130)',
+                        'soben-dark': '#1a3a3d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-teal-custom { background-color: rgb(51, 124, 130); }
+        .text-teal-custom { color: rgb(51, 124, 130); }
+        .border-teal-custom { border-color: rgb(51, 124, 130); }
+        .hover-teal:hover { color: rgb(51, 124, 130); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-teal-custom/20">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center animate__animated animate__fadeInDown">
+                <img src="logo.jpg" alt="Soben Media Logo" class="h-16 w-auto object-contain">
+            </a>
+
+            <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-widest animate__animated animate__fadeInDown">
+                <a href="#about" class="hover-teal transition">The Message</a>
+                <a href="#services" class="hover-teal transition">Solutions</a>
+                <a href="#products" class="hover-teal transition">Our Products</a>
+                <a href="#contact" class="hover-teal transition">Contact</a>
+				<a href="#clients" class="hover-teal transition">Clients</a> <a href="#contact" class="text-teal-custom border border-teal-custom px-4 py-1 rounded hover:bg-teal-custom hover:text-white transition">Get Started</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-40 pb-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="w-64 h-64 md:w-96 md:h-[30rem] bg-slate-200 rounded-2xl overflow-hidden shadow-2xl flex-shrink-0 border-4 border-white" data-aos="fade-right">
+                <img src="Ly.png" alt="Mony" class="w-full h-full object-cover">
+            </div>
+            <div class="md:w-2/3" data-aos="fade-left">
+                <h2 class="text-teal-custom font-bold uppercase tracking-widest text-sm mb-4">The Vision</h2>
+                <h1 class="text-4xl md:text-5xl font-black mb-6 leading-tight text-slate-900">
+                    Transforming Technology into <span class="text-teal-custom underline decoration-wavy">CHHEANG LYHUO.</span>
+                </h1>
+                <p class="text-xl text-slate-600 leading-relaxed italic border-l-4 border-teal-custom pl-6">
+                    "In a world where technology evolves daily, I help businesses bridge the gap between where they are and where they need to be. My focus isn't just on building tools, but on creating scalable digital ecosystems..."
+                    <br><br>
+                    <span class="font-bold text-teal-custom">Best Regards, <br> Lyhuo</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-3xl font-black mb-16 uppercase tracking-tight" data-aos="fade-up">Expertise & Solutions</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-8 rounded-xl border border-slate-200 hover:border-teal-custom transition shadow-sm" data-aos="zoom-in">
+                    <i class="fa-solid fa-laptop-code text-3xl text-teal-custom mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Website Design</h3>
+                    <p class="text-slate-500 text-sm">Crafting modern, responsive, and fast-loading websites that reflect your brand's unique identity.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-200 hover:border-teal-custom transition shadow-sm" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fa-solid fa-arrow-up-right-dots text-3xl text-teal-custom mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Advance SEO</h3>
+                    <p class="text-slate-500 text-sm">In-depth technical optimization and content strategy to dominate search engine results.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-200 hover:border-teal-custom transition shadow-sm" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fa-solid fa-location-dot text-3xl text-teal-custom mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Google Maps</h3>
+                    <p class="text-slate-500 text-sm">Managing listings and creating local visibility to ensure your business is found by local customers.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-200 hover:border-teal-custom transition shadow-sm" data-aos="zoom-in">
+                    <i class="fa-brands fa-facebook-f text-3xl text-teal-custom mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Facebook Growth</h3>
+                    <p class="text-slate-500 text-sm">Expert post management and precision boosting to increase engagement and follower growth.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-200 hover:border-teal-custom transition shadow-sm" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fa-solid fa-video text-3xl text-teal-custom mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Media Production</h3>
+                    <p class="text-slate-500 text-sm">Professional photo/video editing and product design for high-impact marketing campaigns.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-200 hover:border-teal-custom transition shadow-sm" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fa-solid fa-server text-3xl text-teal-custom mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">IT Infrastructure</h3>
+                    <p class="text-slate-500 text-sm">Full-scale maintenance of computer systems, networks, and hardware for maximum security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-24 px-6 bg-soben-dark text-white text-center">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-black mb-4 uppercase tracking-tight" data-aos="fade-down">Our Products</h2>
+            <p class="text-teal-100/60 mb-16 text-lg">Are you ready to build one of these websites with us?</p>
+            <div class="grid md:grid-cols-3 gap-10">
+                <a href="https://www.holdenbeachmassage.net/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="massage1.avif" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Massage & Wellness</h4>
+                        </div>
+                    </div>
+                </a>
+				<a href="https://demo.strongtheme.com/nature/?storefront=envato-elements" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="massage2.avif" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Massage & Spa</h4>
+                        </div>
+                    </div>
+                </a>
+				<a href="https://flexora.vamtam.com/?storefront=envato-elements" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="massage3.avif" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Physiotherapy</h4>
+                        </div>
+                    </div>
+                </a>
+				<a href="https://startersites.io/blocksy/restaurant/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="restraurant.webp" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Restaurant</h4>
+                        </div>
+                    </div>
+                </a>
+				
+				<a href="https://creativethemes.com/blocksy/starter-site/catering/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="catering.webp" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Catering</h4>
+                        </div>
+                    </div>
+                </a>
+				<a href="https://jacqueline.themerex.net/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="Thida Massage.jpg" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Thida Massage</h4>
+                        </div>
+                    </div>
+                </a>
+				<a href="https://jet-black.jacqueline.themerex.net/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="massage-man.jpg" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Massage For Men</h4>
+                        </div>
+                    </div>
+                </a>
+				
+				<a href="https://jacqueline.themerex.net/beauty-salon/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="beautiful-salon.jpg" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Beautiful Salon</h4>
+                        </div>
+                    </div>
+                </a>
+				<a href="https://jacqueline.themerex.net/wellness-center/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="wellness-center.jpg" alt="Massage Website" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition duration-500 group-hover:scale-105">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase tracking-tight group-hover:text-teal-custom transition">Wellness Center</h4>
+                        </div>
+                    </div>
+                </a>
+				
+                </div>
+				
+        </div>
+    </section>
+
+    <section id="google-maps" class="py-24 px-6 bg-white text-center">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-black mb-4 uppercase tracking-tight text-slate-900" data-aos="fade-up">Local Visibility & Maps</h2>
+            <p class="text-slate-600 mb-16 text-lg" data-aos="fade-up">Helping businesses dominate local search and drive physical traffic.</p>
+            <div class="grid md:grid-cols-3 gap-10">
+                <a href="" class="group block" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-100 border border-slate-200 shadow-lg transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="googlemap1.png" class="w-full h-64 object-cover opacity-90 group-hover:opacity-100 transition duration-500">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase group-hover:text-teal-custom transition">Google Business Profile Setup & Verification</h4>
+                            <p class="text-sm text-slate-500 mt-2">Establish your digital presence where customers look first.</br></br>
+We handle the complete setup of your Google Business Profile, including the verification process. By claiming your official spot on the map, we ensure your business is visible, verified, and ready to capture local leads from the moment they search.</p>
+                        </div>
+                    </div>
+                </a>
+				 <a href="" class="group block" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-100 border border-slate-200 shadow-lg transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="googlemap2.jpg" class="w-full h-64 object-cover opacity-90 group-hover:opacity-100 transition duration-500">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase group-hover:text-teal-custom transition">Location Optimization & Information Management</h4>
+                            <p class="text-sm text-slate-500 mt-2">Provide the right answers at the right time. </br></br> 
+							We optimize your shop’s information, including exact coordinates, operating hours, contact details, and high-quality photography. By keeping your data precise and synchronized, we improve your local SEO ranking, making it easier for customers to visit your physical location.
+							</p>
+                        </div>
+                    </div>
+                </a>
+				<a href="" class="group block" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative overflow-hidden rounded-xl bg-slate-100 border border-slate-200 shadow-lg transition-all duration-300 group-hover:border-teal-custom">
+                        <img src="googlemap3.png" class="w-full h-64 object-cover opacity-90 group-hover:opacity-100 transition duration-500">
+                        <div class="p-6 bg-white text-slate-900 text-left">
+                            <h4 class="font-bold text-xl uppercase group-hover:text-teal-custom transition">Reputation & Review Strategy</h4>
+                            <p class="text-sm text-slate-500 mt-2">Turn customer satisfaction into your most powerful marketing tool.</br></br>
+							A 5-star reputation is the key to winning new clients. We implement strategies to encourage authentic customer reviews and manage your digital reputation. By responding to feedback and highlighting positive experiences, we build the trust necessary to convert searchers into loyal customers.
+							</p>
+                        </div>
+                    </div>
+                </a>
+                </div>
+        </div>
+    </section>
+
+    <section id="facebook-growth" class="py-24 px-6 bg-slate-50 text-center">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-black mb-4 uppercase tracking-tight text-slate-900" data-aos="fade-up">Facebook Growth & Meta Ads</h2>
+            <p class="text-slate-600 mb-16 text-lg" data-aos="fade-up">Strategic content and precision boosting.</p>
+            <div class="grid md:grid-cols-3 gap-10">
+                <a href="" class="group block" data-aos="zoom-in">
+                    <div class="relative overflow-hidden rounded-xl bg-white border border-slate-200 shadow-lg transition-all duration-300 group-hover:border-blue-600">
+                        <img src="facebook1.avif" class="w-full h-64 object-cover opacity-90 group-hover:opacity-100 transition duration-500">
+                        <div class="p-6 text-left">
+                            <h4 class="font-bold text-xl uppercase group-hover:text-blue-600 transition">Meta Ad Campaigns</h4>
+                            <p class="text-sm text-slate-500 mt-2">Precision targeting that turns clicks into customers.</br></br>
+							We design and manage high-performing Meta Ad campaigns tailored to your specific goals. By utilizing data-driven demographics and A/B testing, we ensure your marketing budget is spent effectively, reaching the right audience at the right time to maximize your sales and brand awareness.
+							</p>
+                        </div>
+                    </div>
+                </a>
+				 <a href="" class="group block" data-aos="zoom-in">
+                    <div class="relative overflow-hidden rounded-xl bg-white border border-slate-200 shadow-lg transition-all duration-300 group-hover:border-blue-600">
+                        <img src="facebook2.webp" class="w-full h-64 object-cover opacity-90 group-hover:opacity-100 transition duration-500">
+                        <div class="p-6 text-left">
+                            <h4 class="font-bold text-xl uppercase group-hover:text-blue-600 transition">Strategic Content Creation</h4>
+                            <p class="text-sm text-slate-500 mt-2">High-impact visuals that tell your brand's story.</br></br>
+							Consistency is key to social media growth. We produce engaging, brand-aligned content from professional photo editing to short-form video designed to capture attention in the feed. Our content strategy focuses on building an active community and keeping your followers engaged with your brand daily.
+							</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+<!Section for Our Clients>
+	<section id="clients" class="py-24 px-6 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-teal-custom font-bold uppercase tracking-[0.3em] text-sm mb-4" data-aos="fade-up">Success Stories</h2>
+            <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight text-slate-900" data-aos="fade-up">Trusted Partners</h2>
+            <div class="w-24 h-1 bg-teal-custom mx-auto mt-6"></div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+            <a href="https://bluebirdcambodia.com/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+            <div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:border-teal-custom transition-all duration-300 flex flex-col items-center" data-aos="zoom-in">
+                <img src="bluebird.png" alt="Bluebird International School" class="h-13 w-auto grayscale group-hover:grayscale-0 transition duration-500 mb-4">
+                <p class="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-teal-custom">Education Sector</p>
+            </div>
+			</a>
+			<a href="https://bluelineinternational.edu.kh/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+            <div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:border-teal-custom transition-all duration-300 flex flex-col items-center" data-aos="zoom-in" data-aos-delay="100">
+                <img src="blueline.png" alt="Blueline International School" class="h-13 w-auto grayscale group-hover:grayscale-0 transition duration-500 mb-4">
+                <p class="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-teal-custom">Secondary Education</p>
+            </div>
+			</a>
+			<a href="https://balimassagekh.com/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+             <div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:border-teal-custom transition-all duration-300 flex flex-col items-center" data-aos="zoom-in" data-aos-delay="100">
+                <img src="balimassage.png" alt="Blueline International School" class="h-13 w-auto grayscale group-hover:grayscale-0 transition duration-500 mb-4">
+                <p class="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-teal-custom">Bali Massage Kampot</p>
+            </div>
+			</a>
+			<a href="https://allurenailashburn.com/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+			<div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:border-teal-custom transition-all duration-300 flex flex-col items-center" data-aos="zoom-in" data-aos-delay="100">
+                <img src="allure.png" alt="Blueline International School" class="h-13 w-auto grayscale group-hover:grayscale-0 transition duration-500 mb-4">
+                <p class="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-teal-custom">Nail Salon</p>
+            </div>
+			</a>
+			<a href="https://kampotrelaxinghome.com/massage-menu/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+			<div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:border-teal-custom transition-all duration-300 flex flex-col items-center" data-aos="zoom-in" data-aos-delay="100">
+                <img src="kampotrelaxinghome.jpg" alt="Blueline International School" class="h-13 w-auto grayscale group-hover:grayscale-0 transition duration-500 mb-4">
+                <p class="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-teal-custom">Massage and Spa</p>
+            </div>
+			</a>
+			<a href="https://avalonleisureworld.com/" target="_blank" rel="noopener noreferrer" class="group block" data-aos="flip-up">
+			<div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:border-teal-custom transition-all duration-300 flex flex-col items-center" data-aos="zoom-in" data-aos-delay="100">
+                <img src="avalon.png" alt="Blueline International School" class="h-13 w-auto grayscale group-hover:grayscale-0 transition duration-500 mb-4">
+                <p class="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-teal-custom">Nal Salon & Spa</p>
+            </div>
+			</a>
+            <div class="group p-8 bg-dashed border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center hover:bg-white hover:border-teal-custom transition-all" data-aos="zoom-in" data-aos-delay="300">
+                <a href="#contact" class="text-center">
+                    <i class="fa-solid fa-plus text-2xl text-slate-300 mb-2"></i>
+                    <p class="text-xs font-bold text-slate-400 uppercase">Your Business Next</p>
+                </a>
+            </div>
+
+        </div>
+        
+        <div class="mt-20 text-center max-w-3xl mx-auto" data-aos="fade-up">
+            <p class="text-slate-500 italic text-lg">
+                "Whether it's an international school system or a local wellness boutique, my goal remains the same: scaling operations through secure IT and creative marketing."
+            </p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="contact" class="py-24 px-6 bg-white border-t border-slate-200">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
+            <div data-aos="fade-right">
+                <h2 class="text-4xl font-black mb-6 uppercase text-teal-custom">Let's Build the Future.</h2>
+                <div class="space-y-4">
+                    <a href="https://web.telegram.org/k/" class="flex items-center justify-center gap-3 w-full bg-[#26A5E4] text-white font-bold py-4 rounded-xl hover:scale-105 transition shadow-lg">
+                        <i class="fa-brands fa-telegram text-2xl"></i> Telegram
+                    </a>
+                    <a href="https://wa.me/85511861591" class="flex items-center justify-center gap-3 w-full bg-[#25D366] text-white font-bold py-4 rounded-xl hover:scale-105 transition shadow-lg">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i> WhatsApp
+                    </a>
+                    <div class="pt-6">
+                        <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-2">Email Me Directly</p>
+                        <a href="mailto:monylorn@gmail.com" class="text-2xl font-black text-teal-custom hover:underline">monylorn@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 shadow-sm" data-aos="fade-left">
+                <form action="https://formspree.io/f/monylorn@gmail.com" method="POST" class="space-y-6">
+                    <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-teal-custom outline-none" placeholder="Full Name">
+                    <textarea name="message" rows="4" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-teal-custom outline-none" placeholder="Your Project Details..."></textarea>
+                    <button type="submit" class="w-full bg-soben-dark text-white font-black py-4 rounded-lg hover:bg-teal-custom transition uppercase tracking-widest">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+	
+    <footer class="py-10 text-center text-slate-400 text-sm border-t border-slate-100">
+        &copy; 2026 Soben Media by Lorn Mony. Secure. Creative. Family.
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
